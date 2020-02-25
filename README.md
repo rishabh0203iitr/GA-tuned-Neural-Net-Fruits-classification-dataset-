@@ -30,10 +30,10 @@ This can be further improved by adding Convolutional layers to the network which
 
 ### Authors
 
-* **Yash Vardhan Sharma** 
+* [Yash Vardhan Sharma](https://github.com/Yash-Vardhan-Sharma)
 * [Rishabh Sharma](https://github.com/rishabh0203iitr)
 
 ### Acknowledgments
 
 * Ahmed Ghad
-* Ali Ghodsi
+
