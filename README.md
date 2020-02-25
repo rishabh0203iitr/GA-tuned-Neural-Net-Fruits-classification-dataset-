@@ -1,39 +1,39 @@
-# GA tuned Neural Net (Fruits classification dataset)
- Train a Deep Neural net to classify between a set of 4 fruits
+# Genetic Algorithm tuned Deep Neural Network
 
- This program is in succession to the previous program which uses MNIST dataset.
+Using Genetic Algorithm to optimize the weights in a deep neural network for Fruits-Classification dataset
 
- This program aims to train a Neural net to classify between a dataset containing 4 fruits.
+### Prerequisites
 
- GA-parameters
+Before running the code install the following python libraries
 
+* numpy
+* pymoo
+* deap
 
- Size of population - 8
+```
+pip install numpy
+pip install pymoo
+pip install deap
+```
 
- Number of mating parents - 4
+### Training the Model
 
- Number of generations - 1000
-
- Mutation probability - 0.1%
-
- Crossover type - Mid-point Crossover
-
-
-
- Neural Network architecture
-
- Input layer - 120
-
- Hidden layer 1 - 150
-
- Hidden layer 2 - 60
-
- Output layer - 4
+The neural network is developed entirely by using only numpy library. The initial population of the weights are generated randomly, and the fitness of all the models is calculated. The best population is selected according to the fitness function and crossover and mutation is susequntly applied to get new population.
 
 
+### Results
 
- Result
- The Neural Network reaches 99.3% training accuracy, which is a very good result considering the initial population size is just 8.
+The Neural Network reaches 99% training accuracy.
+![Accuracy Graph](https://github.com/rishabh0203iitr/GA-tuned-Neural-Net-Fruits-classification-dataset-/blob/master/accuracy%20graph.PNG)
 
- This can be further improved by adding Convolutional layers to the network which will enhance its feature extraction capabilities.
- 
+This can be further improved by adding Convolutional layers to the network which will enhance its feature extraction capabilities.
+
+### Authors
+
+* **Yash Vardhan Sharma** 
+* [Rishabh Sharma](https://github.com/rishabh0203iitr)
+
+### Acknowledgments
+
+* Ahmed Ghad
+* Ali Ghodsi
